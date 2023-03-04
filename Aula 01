@@ -1,0 +1,32 @@
+public class Main
+{
+    public static void main(String[] args) {
+        //declaração de variaveis:
+        
+        String product1 = "Computer";
+        String product2 = "Office desk";
+        
+        int age = 30;
+        int code = 5290;
+        char gender = 'F';
+        
+        double prince1 = 2100.0;
+        double prince2 = 650.50;
+        double measure = 53.234567;
+        
+        //saidas:
+        System.out.println("Product: ");
+        System.out.printf("%s, wich price is $ %f %n",product1,prince1 );
+        System.out.printf("%s, wich price is $ %d %n %n",product2,code );
+        
+         System.out.printf("Record: %d years old, code %d and gender: %s %n", age,code, gender);
+         
+         //saidas com casas decimais:
+         System.out.printf("Measue with eigth decimal places: %f %n",measure );
+         
+         //saida com 3 casas decimais:
+         System.out.printf("Rouded (three decimal places): %.3f %n",measure );
+         
+         
+    }
+}
