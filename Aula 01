@@ -22,7 +22,7 @@ public class Main
          System.out.printf("Record: %d years old, code %d and gender: %s %n", age,code, gender);
          
          //saidas com casas decimais:
-         System.out.printf("Measue with eigth decimal places: %f %n",measure );
+         System.out.printf("Measue with eigth decimal places: %.8f %n",measure );
          
          //saida com 3 casas decimais:
          System.out.printf("Rouded (three decimal places): %.3f %n",measure );
